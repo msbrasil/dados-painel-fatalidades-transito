@@ -1,0 +1,5 @@
+hypothesis_group,df1,df2,f_stat,p_value,significant_5pct
+"Minimum Legal Drinking Age dummies (18, 19, 20)",3,47,0.3529522673139005,0.7871908737306216,No (p >= 0.05)
+"Mandatory Punishment laws (jail, service)",2,47,0.32641897286348287,0.7231253175081197,No (p >= 0.05)
+"State Macroeconomic Controls (unemp, log_income)",2,47,30.349778255375316,3.4456618957187585e-9,Yes (p < 0.05)
+Year Fixed Effects (1983-1988 dummies),6,47,10.131852486572926,3.573972175448204e-7,Yes (p < 0.05)

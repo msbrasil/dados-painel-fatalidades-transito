@@ -1,0 +1,7 @@
+metric,value
+Total panel observations,336
+"Number of states (contiguous US, excl. AK/HI/DC)",48
+Time span (annual waves),1982-1988 (T = 7)
+Strictly balanced raw panel?,Yes (48 x 7 = 336)
+Complete cases for baseline controlled TWFE (M4),335 / 336
+Missingness profile,jail=1; service=1; punish=1 | Affected observation(s): CA (1988)

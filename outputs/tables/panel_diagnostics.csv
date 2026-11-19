@@ -1,0 +1,10 @@
+test,null_hyp,statistic_lbl,statistic,df,p_value,conclusion
+F-test for State Fixed Effects (vs. Pooled OLS),H0: All state intercepts are equal (no state FE),F = 44.544,44.54399373281847,"df1=47, df2=272",1.3727308479959356e-102,Reject H0: State FE strictly required
+F-test for Time Fixed Effects (TWFE vs. State FE),H0: All year effects equal zero,F = 19.568,19.568462105265326,"df1=6, df2=272",5.685138545032708e-19,Reject H0: Two-way FE preferred
+Breusch-Pagan Lagrange Multiplier (RE vs. Pooled),H0: Variance of unobserved state effect = 0,chisq = 376.177,376.17672506572956,df=1,8.459782948584962e-84,Reject H0: Unobserved heterogeneity present
+Hausman Specification Test (Bivariate: FE vs. RE),H0: Random effects estimator is consistent,chisq = 18.353,18.353360908325556,df=1,1.834950094575956e-5,Reject H0: Use Fixed Effects
+Hausman Specification Test (Controlled: FE vs. RE),H0: Random effects estimator is consistent,chisq = 74.996,74.99587856197482,df=9,1.5832613715984296e-12,Reject H0: Use Fixed Effects
+Cluster-Robust Hausman Test (Aux. Regression),H0: Random effects consistent under state clustering,chisq = 134.328,134.3284290562598,df=9,1.5246504915779612e-24,Reject H0: Fixed Effects strictly required
+Breusch-Godfrey / Wooldridge Serial Correlation Test,H0: No serial correlation in idiosyncratic errors,chisq = 27.518,27.517605447216667,df=6,1.15794891118525e-4,Reject H0: Serial correlation -> Cluster SEs
+Wooldridge First-Difference AR(1) Test (FE),H0: No AR(1) autocorrelation in FE residuals,F = 10.543,10.542634620209592,"df1=1, df2=285",0.001305857443190466,Reject H0: Autocorrelation -> Cluster SEs
+Pesaran CD Cross-Sectional Dependence Test,H0: Cross-sectional independence across states,z = -1.535,-1.535123725974851,-,0.12475343935046798,Fail to reject H0: Weak spatial correlation

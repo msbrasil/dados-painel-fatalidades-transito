@@ -1,0 +1,20 @@
+# R / RStudio / Quarto temporary & session files
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+.Rproj.user/
+*.Rcheck/
+
+# Quarto build caches & transient artifacts (keep final docs/index.html)
+/.quarto/
+reports/.quarto/
+reports/*_files/
+reports/*.html
+*_cache/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
